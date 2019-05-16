@@ -1,0 +1,7 @@
+PET ID    | PET NAME                                 | STATUS | PHOTO URLS           | TAG ID          | TAG NAME          | CATEGORY ID | CATEGORY NAME
+ 11111111 | select * from pets where status='Active' | Active | someurl,someotherurl |  111111,-222222 |  testtag,testtag2 | 111111      | -1 UNION SELECT 1 INTO @,@
+ 45364564 | select * from pets where status='Active' | Active | someurl,someotherurl |  111111,-222222 |  testtag,testtag2 | 111111      | 1 AND (SELECT * FROM Users) = 1
+ 76786786 | select * from pets where status='Active' | Active | someurl,someotherurl |  111111,-222222 |  testtag,testtag2 | 111111      | AND true
+ 34345345 | select * from pets where status='Active' | Active | someurl,someotherurl |  111111,-222222 |  testtag,testtag2 | 111111      | OR 1=1
+ 87897898 | select * from pets where status='Active' | Active | someurl,someotherurl |  111111,-222222 |  testtag,testtag2 | 111111      | '''''''''''''UNION SELECT '2
+ 56756565 | select * from pets where status='Active' | Active | someurl,someotherurl |  111111,-222222 |  testtag,testtag2 | 111111      | /*…*/
