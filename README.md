@@ -13,4 +13,6 @@
 **When** user retreves the inserted pet<br/>
 **Then** user shuld see that the filed contains sql query as string<br/>
 <br/>
-Execute tests using command: **mvn clean verify -Dtags="PetStore"**
+Execute tests using command: **mvn clean verify -Dtags="PetStore"**<br/>
+<br/>
+Report location:target/site/reports/index.html
